@@ -15,8 +15,8 @@ public class Test {
         boolean isShots = b % 2 != 0;
      // boolean isMultiplyOf3 = (b * (b + 1)) % 3 == 0;
         boolean isMultiplyOf3 = Math.floorMod(b * (b + 1), 3) == 0 ;
-        System.out.println(isShots);
-        System.out.println(isMultiplyOf3);
+        System.out.println(isShots && isMultiplyOf3);
+        
 
 
 
